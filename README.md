@@ -1,10 +1,22 @@
-Please Read this :-
+Modelos y Sistemas
 
-to start the project you have to go to applicationlayer (FOLDER) and open the Doctorpatient.php
+Proyecto Sistema de Turnos online para consultorio médico
+
+-Descargar doctordb.sql para instalar base de datos
 
 
-There is an expected error in the patient and doctor login but once you login this error will vanish
 
 
-The project database structure is in the datalayer (FOLDER) - SQL DATABASE EXPORT 
-and its called registration(1)
+
+
+
+
+
+
+
+
+
+
+
+
+Garcia Alejo - Ruiz Darian
