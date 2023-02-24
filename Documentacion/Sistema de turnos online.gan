@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2022-11-27" view-index="2" gantt-divider-location="228" resource-divider-location="300" version="3.2.3230" locale="es_AR">
+    <description/>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd3" name="Name" width="121" order="0"/>
+        <field id="tpd4" name="Begin date" width="45" order="1"/>
+        <field id="tpd5" name="End date" width="46" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="color.recent">
+            <![CDATA[#000000 #66ccff #ffff00 #ff0000 #00ff00]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="12" name="Web de consultorio medico" color="#66ccff" meeting="false" start="2023-01-02" duration="36" complete="0" thirdDate="2022-12-29" thirdDate-constraint="0" expand="true">
+            <task id="13" name="Fase 1 Analisis y documentacion" color="#000000" meeting="false" start="2023-01-02" duration="34" complete="0" thirdDate="2022-12-23" thirdDate-constraint="0" expand="true">
+                <task id="14" name="Recopilacion de datos de encuesta" color="#00ff00" meeting="false" start="2023-01-02" duration="2" complete="0" thirdDate="2022-12-29" thirdDate-constraint="0" expand="true">
+                    <depend id="15" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="15" name="Analisis de datos del mercado" color="#00ff00" meeting="false" start="2023-01-04" duration="2" complete="0" thirdDate="2022-12-29" thirdDate-constraint="0" expand="true">
+                    <depend id="16" type="2" difference="0" hardness="Strong"/>
+                    <depend id="27" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="27" name="Documentacion" color="#00ff00" meeting="false" start="2023-01-06" duration="30" complete="0" thirdDate="2022-12-19" thirdDate-constraint="0" expand="true"/>
+                <task id="16" name="Preparar propuesta" color="#00ff00" meeting="false" start="2023-01-06" duration="2" complete="0" thirdDate="2022-12-29" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="17" name="Fase 2 Administracion y desarrolo del sistema" color="#000000" meeting="false" start="2023-01-06" duration="27" complete="0" thirdDate="2023-01-06" thirdDate-constraint="0" expand="true">
+                <task id="18" name="Seleccion de herramientas de software" color="#ff0000" meeting="false" start="2023-01-06" duration="2" complete="0" thirdDate="2022-12-29" thirdDate-constraint="0" expand="true">
+                    <depend id="19" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="19" name="Asignar trabajo" color="#ff0000" meeting="false" start="2023-01-10" duration="2" complete="0" thirdDate="2022-12-29" thirdDate-constraint="0" expand="true">
+                    <depend id="20" type="2" difference="0" hardness="Strong"/>
+                    <depend id="21" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="20" name="Diseño de software" color="#ff0000" meeting="false" start="2023-01-12" duration="16" complete="0" thirdDate="2023-01-12" thirdDate-constraint="0" expand="true">
+                    <depend id="28" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="21" name="Desarrollo software" color="#ff0000" meeting="false" start="2023-01-12" duration="16" complete="0" thirdDate="2023-01-12" thirdDate-constraint="0" expand="true">
+                    <depend id="28" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="28" name="Prototipado" color="#ff0000" meeting="false" start="2023-02-03" duration="4" complete="0" thirdDate="2022-12-29" thirdDate-constraint="0" expand="true">
+                    <depend id="29" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="29" name="Arreglo de bugs y errores" color="#ff0000" meeting="false" start="2023-02-09" duration="3" complete="0" thirdDate="2023-01-09" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="22" name="Fase 3 Planificacion y presentacion" color="#000000" meeting="false" start="2023-02-14" duration="3" complete="0" thirdDate="2023-02-14" thirdDate-constraint="0" expand="true">
+                <task id="24" name="Carta de presentación al consultorio" color="#ffff00" meeting="false" start="2023-02-14" duration="2" complete="0" thirdDate="2022-12-23" thirdDate-constraint="0" expand="true">
+                    <depend id="25" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="25" name="Entrevista y orden de compra" color="#ffff00" meeting="false" start="2023-02-16" duration="1" complete="0" thirdDate="2022-12-23" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="31" name="Fase 4 Puesta en marcha" color="#000000" meeting="false" start="2023-02-17" duration="2" complete="0" thirdDate="2023-02-08" thirdDate-constraint="0" expand="true">
+                <task id="32" name="Implementación y evaluación" color="#000000" meeting="false" start="2023-02-17" duration="2" complete="0" thirdDate="2023-02-08" thirdDate-constraint="0" expand="true"/>
+            </task>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
